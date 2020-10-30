@@ -27,8 +27,23 @@ h2 {
 .navbar-toggler {
   color: #6B0A0A !important;
 }
-@media only screen and (max-width: 600px) {
-  .img-size {
+@media (max-width: 1028px) {
+#menu {
+    text-align: center;
+}
+.img-size {
+    margin-top: 67px;
+    margin-bottom: -132px;
     width: 100%;
-  }
+}
+.navbar-brand {
+  font-size: 3.5rem !important;
+}
+.navbar-toggler {
+  font-size: 1.8rem !important;
+  color: #6B0A0A !important;
+}
+h2 {
+  font-size: 3rem !important;
+}
 }
