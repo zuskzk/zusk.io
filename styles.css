@@ -1,0 +1,34 @@
+body {
+background-color: #CA9C80 !important;
+}
+h2 {
+  color: #6B0A0A;
+}
+.img-size {
+  margin-bottom: -105px;
+  width: 40%;
+}
+.size-icon {
+  transition: all 1s;
+  padding: 3%;
+  font-size: 55px;
+
+}
+.navbar-brand {
+  color: #6B0A0A !important;
+  font-size: 1.5rem !important;
+}
+.nav-link {
+  color: #6B0A0A !important;
+}
+.menu-size {
+  font-size: 1.2rem;
+}
+.navbar-toggler {
+  color: #6B0A0A !important;
+}
+@media only screen and (max-width: 600px) {
+  .img-size {
+    width: 100%;
+  }
+}
